@@ -3,7 +3,7 @@ namespace Finance.Lib.Underlying
     
     [<AutoOpen>]
     module UnderlyingTypes =
-
+        
         open System
 
         // INDEX
@@ -91,7 +91,7 @@ namespace Finance.Lib.Underlying
             | EURCHF
             | CHFJPY
         
-        
+
         type FxPair = {
             Cur1     : Cur
             Cur2     : Cur
